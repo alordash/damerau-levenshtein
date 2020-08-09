@@ -11,6 +11,11 @@ describe('levenshtein-test', function () {
         let val = distance("best", "better");
         expect(val).toBe(3);
     });
+
+    it('distance 2', async function () {
+        let val = distance("test", "tset");
+        expect(val).toBe(1);
+    });
     //#endregion
 
     //#region closest
