@@ -1,4 +1,4 @@
-const { distance, closest } = require('../lib/levenshtein');
+const { distance, closest } = require('../lib/levenshtein-damerau');
 
 describe('levenshtein-test', function () {
     //#region distance
