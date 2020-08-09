@@ -1,19 +1,19 @@
 {
-  "name": "@alordash/levenshtein-damerau",
+  "name": "@alordash/damerau-levenshtein",
   "version": "1.0.0",
-  "description": "My realization of levenshtein-damerau algorithm.",
+  "description": "My realization of Damerau-Levenshtein algorithm.",
   "main": "index.js",
   "scripts": {
     "test": "jasmine"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alordash/levenshtein-damerau.git"
+    "url": "git+https://github.com/alordash/damerau-levenshtein.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alordash/levenshtein-damerau/issues"
+    "url": "https://github.com/alordash/damerau-levenshtein/issues"
   },
-  "homepage": "https://github.com/alordash/levenshtein-damerau#readme"
+  "homepage": "https://github.com/alordash/damerau-levenshtein#readme"
 }

@@ -1,1 +1,1 @@
-module.exports = require('./lib/levenshtein-damerau');
+module.exports = require('./lib/damerau-levenshtein');

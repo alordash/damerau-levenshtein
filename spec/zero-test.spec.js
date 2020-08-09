@@ -1,4 +1,4 @@
-const { distance, closest } = require('../lib/levenshtein-damerau');
+const { distance, closest } = require('../lib/damerau-levenshtein');
 
 describe('levenshtein-test', function () {
     //#region distance
@@ -16,7 +16,7 @@ describe('levenshtein-test', function () {
     //#region closest
     it('closest 0', async function () {
         let val = closest("test", ["teeeeest", "testtest", "tset", "tet", "est test"]);
-        expect(val.closest_string).toBe("tet");
+        expect(val.closest_string).toBe("tset");
         expect(val.distance).toBe(1);
     });
 
