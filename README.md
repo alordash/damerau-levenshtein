@@ -1,4 +1,4 @@
-# @alordash/levenshtein
+# @alordash/damerau-levenshtein
 
 ```
 $ npm i @alordash/damerau-levenshtein
