@@ -1,6 +1,6 @@
 const { distance, closest } = require('../lib/damerau-levenshtein');
 
-describe('levenshtein-test', function () {
+describe('damerau-levenshtein-test', function () {
     //#region distance
     it('distance 0', async function () {
         let val = distance("polynomial", "exponential");
