@@ -31,26 +31,26 @@ console.log(value.distance);
 
 # Features
 
-You can also create calculation object using **distanceCalculation** class:  
+You can also create calculation object using **DamerauLevenshtein** class:  
 ```javascript
-const { distanceCalculation } = require("@alordash/levenshtein");
+const { DamerauLevenshtein } = require("@alordash/levenshtein");
 
 // Calculate Damerau-Levenshtein distance between "entity" and "idenitty"
-let object = new distanceCalculation("entity", "idenitty");
+let object = new DamerauLevenshtein("entity", "idenitty");
 
 // Print Damerau-Levenshtein distance between "entity" and "idenitty"
-console.log(object.value);
-//=> 3
+console.log(object.valueOf(), object.distance);
+//=> 3 3
 
 // Change strings in object to "first" and "wrist" and calculate Damerau-Levenshtein distance between them
 object.strings = ["first", "wrist"];
 
 // Print Damerau-Levenshtein distance between "first" and "wrist"
-console.log(object.value);
+console.log(object.distance);
 //=> 2
 
 // Print calculation matrix
-console.log(object.getMatrix());
+console.log(object.toString());
 //=>
 //     |   | w | r | i | s | t
 //—————+–––+–––+–––+–––+–––+–––
